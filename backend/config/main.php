@@ -12,9 +12,9 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap'           => ['log'],
 
-    'modules'             => [],
+    'modules' => [],
 
-    'components'          => [
+    'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
         ],
@@ -41,6 +41,13 @@ return [
 
         'errorHandler' => [
             'errorAction' => 'site/error',
+        ],
+
+        'assetManager' => [
+            'bundles' => [
+                'yii\bootstrap\BootstrapAsset'       => false,
+                'yii\bootstrap\BootstrapPluginAsset' => false,
+            ],
         ],
 
         'urlManager' => [
