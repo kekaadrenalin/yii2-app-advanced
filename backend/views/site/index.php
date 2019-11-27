@@ -12,6 +12,8 @@ $this->title = 'My Yii Application';
         <p class="lead">You have successfully created your Yii-powered application.</p>
 
         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+
+        <p><a class="btn btn-lg btn-success" href="https://adminlte.io/docs/3.0/">Get started with Admin LTE</a></p>
     </div>
 
     <div class="body-content">
